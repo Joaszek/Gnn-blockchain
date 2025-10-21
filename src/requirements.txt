@@ -1,0 +1,25 @@
+# --- core ---
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# --- PyTorch Geometric ekosystem ---
+# (dla CUDA 12.1 → suffix +cu121)
+torch-geometric
+pyg-lib
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+-f https://data.pyg.org/whl/torch-2.3.1+cu121.html
+
+# --- klasyczne ML i data ---
+numpy
+pandas
+scikit-learn
+tqdm
+
+# --- opcjonalne: wykresy, debugging, metis ---
+matplotlib
+networkx
+pyyaml
